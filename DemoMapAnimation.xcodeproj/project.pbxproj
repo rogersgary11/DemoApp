@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C62388A147A492500F9DF63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C623889147A492500F9DF63 /* UIKit.framework */; };
+		1C62388C147A492500F9DF63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C62388B147A492500F9DF63 /* Foundation.framework */; };
+		1C62388E147A492500F9DF63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C62388D147A492500F9DF63 /* CoreGraphics.framework */; };
+		1C623894147A492500F9DF63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C623892147A492500F9DF63 /* InfoPlist.strings */; };
+		1C623896147A492500F9DF63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C623895147A492500F9DF63 /* main.m */; };
+		1C62389A147A492500F9DF63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C623899147A492500F9DF63 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C623885147A492500F9DF63 /* DemoMapAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMapAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C623889147A492500F9DF63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C62388B147A492500F9DF63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C62388D147A492500F9DF63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C623891147A492500F9DF63 /* DemoMapAnimation-Info.plist */ = {isa = PBXFileReference; path = "DemoMapAnimation-Info.plist"; sourceTree = "<group>"; };
+		1C623893147A492500F9DF63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C623895147A492500F9DF63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C623897147A492500F9DF63 /* DemoMapAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "DemoMapAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		1C623898147A492500F9DF63 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C623899147A492500F9DF63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C623882147A492500F9DF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C62388A147A492500F9DF63 /* UIKit.framework in Frameworks */,
+				1C62388C147A492500F9DF63 /* Foundation.framework in Frameworks */,
+				1C62388E147A492500F9DF63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C62387A147A492400F9DF63 = {
+			isa = PBXGroup;
+			children = (
+				1C62388F147A492500F9DF63 /* DemoMapAnimation */,
+				1C623888147A492500F9DF63 /* Frameworks */,
+				1C623886147A492500F9DF63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C623886147A492500F9DF63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C623885147A492500F9DF63 /* DemoMapAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C623888147A492500F9DF63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C623889147A492500F9DF63 /* UIKit.framework */,
+				1C62388B147A492500F9DF63 /* Foundation.framework */,
+				1C62388D147A492500F9DF63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C62388F147A492500F9DF63 /* DemoMapAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1C623898147A492500F9DF63 /* AppDelegate.h */,
+				1C623899147A492500F9DF63 /* AppDelegate.m */,
+				1C623890147A492500F9DF63 /* Supporting Files */,
+			);
+			path = DemoMapAnimation;
+			sourceTree = "<group>";
+		};
+		1C623890147A492500F9DF63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C623891147A492500F9DF63 /* DemoMapAnimation-Info.plist */,
+				1C623892147A492500F9DF63 /* InfoPlist.strings */,
+				1C623895147A492500F9DF63 /* main.m */,
+				1C623897147A492500F9DF63 /* DemoMapAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C623884147A492500F9DF63 /* DemoMapAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C62389D147A492500F9DF63 /* Build configuration list for PBXNativeTarget "DemoMapAnimation" */;
+			buildPhases = (
+				1C623881147A492500F9DF63 /* Sources */,
+				1C623882147A492500F9DF63 /* Frameworks */,
+				1C623883147A492500F9DF63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMapAnimation;
+			productName = DemoMapAnimation;
+			productReference = 1C623885147A492500F9DF63 /* DemoMapAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C62387C147A492400F9DF63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "rohit@bosswebtech.com";
+			};
+			buildConfigurationList = 1C62387F147A492400F9DF63 /* Build configuration list for PBXProject "DemoMapAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C62387A147A492400F9DF63;
+			productRefGroup = 1C623886147A492500F9DF63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C623884147A492500F9DF63 /* DemoMapAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C623883147A492500F9DF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C623894147A492500F9DF63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C623881147A492500F9DF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C623896147A492500F9DF63 /* main.m in Sources */,
+				1C62389A147A492500F9DF63 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C623892147A492500F9DF63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C623893147A492500F9DF63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C62389B147A492500F9DF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C62389C147A492500F9DF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C62389E147A492500F9DF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoMapAnimation/DemoMapAnimation-Prefix.pch";
+				INFOPLIST_FILE = "DemoMapAnimation/DemoMapAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C62389F147A492500F9DF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoMapAnimation/DemoMapAnimation-Prefix.pch";
+				INFOPLIST_FILE = "DemoMapAnimation/DemoMapAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C62387F147A492400F9DF63 /* Build configuration list for PBXProject "DemoMapAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C62389B147A492500F9DF63 /* Debug */,
+				1C62389C147A492500F9DF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C62389D147A492500F9DF63 /* Build configuration list for PBXNativeTarget "DemoMapAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C62389E147A492500F9DF63 /* Debug */,
+				1C62389F147A492500F9DF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C62387C147A492400F9DF63 /* Project object */;
+}
