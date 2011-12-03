@@ -13,6 +13,22 @@
 		1C623894147A492500F9DF63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C623892147A492500F9DF63 /* InfoPlist.strings */; };
 		1C623896147A492500F9DF63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C623895147A492500F9DF63 /* main.m */; };
 		1C62389A147A492500F9DF63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C623899147A492500F9DF63 /* AppDelegate.m */; };
+		1C6238A3147A49B300F9DF63 /* AnimatedMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6238A1147A49B300F9DF63 /* AnimatedMapViewController.m */; };
+		1C6238A4147A49B300F9DF63 /* AnimatedMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6238A2147A49B300F9DF63 /* AnimatedMapViewController.xib */; };
+		1C6238B8147A56ED00F9DF63 /* iCodeBlogAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6238B3147A56ED00F9DF63 /* iCodeBlogAnnotationView.m */; };
+		1C6238B9147A56ED00F9DF63 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6238B5147A56ED00F9DF63 /* MyAnnotation.m */; };
+		1C6238BA147A56ED00F9DF63 /* CustomMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6238B7147A56ED00F9DF63 /* CustomMapView.m */; };
+		1C6238BD147A571700F9DF63 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6238BC147A571700F9DF63 /* MapKit.framework */; };
+		1C6238BF147A572100F9DF63 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6238BE147A572100F9DF63 /* CoreLocation.framework */; };
+		1CFCF18D1483B75B00AA4949 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF1861483B75B00AA4949 /* 1.png */; };
+		1CFCF18E1483B75B00AA4949 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF1871483B75B00AA4949 /* 2.png */; };
+		1CFCF18F1483B75B00AA4949 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF1881483B75B00AA4949 /* 3.png */; };
+		1CFCF1901483B75B00AA4949 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF1891483B75B00AA4949 /* 4.png */; };
+		1CFCF1911483B75B00AA4949 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF18A1483B75B00AA4949 /* 5.png */; };
+		1CFCF1921483B75B00AA4949 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF18B1483B75B00AA4949 /* 6.png */; };
+		1CFCF1931483B75B00AA4949 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF18C1483B75B00AA4949 /* 7.png */; };
+		5D9D0461147AF69200A7F7D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9D0460147AF69200A7F7D9 /* AVFoundation.framework */; };
+		5D9D0466147AFB3900A7F7D9 /* ALLALONGTHEWATCHTOWER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D9D0465147AFB3900A7F7D9 /* ALLALONGTHEWATCHTOWER.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +36,33 @@
 		1C623889147A492500F9DF63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C62388B147A492500F9DF63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C62388D147A492500F9DF63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C623891147A492500F9DF63 /* DemoMapAnimation-Info.plist */ = {isa = PBXFileReference; path = "DemoMapAnimation-Info.plist"; sourceTree = "<group>"; };
+		1C623891147A492500F9DF63 /* DemoMapAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoMapAnimation-Info.plist"; sourceTree = "<group>"; };
 		1C623893147A492500F9DF63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C623895147A492500F9DF63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C623897147A492500F9DF63 /* DemoMapAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "DemoMapAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		1C623898147A492500F9DF63 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C623897147A492500F9DF63 /* DemoMapAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoMapAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		1C623898147A492500F9DF63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C623899147A492500F9DF63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C6238A0147A49B300F9DF63 /* AnimatedMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedMapViewController.h; sourceTree = "<group>"; };
+		1C6238A1147A49B300F9DF63 /* AnimatedMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedMapViewController.m; sourceTree = "<group>"; };
+		1C6238A2147A49B300F9DF63 /* AnimatedMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimatedMapViewController.xib; sourceTree = "<group>"; };
+		1C6238B2147A56ED00F9DF63 /* iCodeBlogAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCodeBlogAnnotationView.h; sourceTree = "<group>"; };
+		1C6238B3147A56ED00F9DF63 /* iCodeBlogAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCodeBlogAnnotationView.m; sourceTree = "<group>"; };
+		1C6238B4147A56ED00F9DF63 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		1C6238B5147A56ED00F9DF63 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		1C6238B6147A56ED00F9DF63 /* CustomMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMapView.h; sourceTree = "<group>"; };
+		1C6238B7147A56ED00F9DF63 /* CustomMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMapView.m; sourceTree = "<group>"; };
+		1C6238BC147A571700F9DF63 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1C6238BE147A572100F9DF63 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1CFCF1861483B75B00AA4949 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1CFCF1871483B75B00AA4949 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		1CFCF1881483B75B00AA4949 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		1CFCF1891483B75B00AA4949 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		1CFCF18A1483B75B00AA4949 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		1CFCF18B1483B75B00AA4949 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		1CFCF18C1483B75B00AA4949 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		1CFCF1951483D7B900AA4949 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		5D9D0460147AF69200A7F7D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5D9D0465147AFB3900A7F7D9 /* ALLALONGTHEWATCHTOWER.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ALLALONGTHEWATCHTOWER.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9D0461147AF69200A7F7D9 /* AVFoundation.framework in Frameworks */,
+				1C6238BF147A572100F9DF63 /* CoreLocation.framework in Frameworks */,
+				1C6238BD147A571700F9DF63 /* MapKit.framework in Frameworks */,
 				1C62388A147A492500F9DF63 /* UIKit.framework in Frameworks */,
 				1C62388C147A492500F9DF63 /* Foundation.framework in Frameworks */,
 				1C62388E147A492500F9DF63 /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +85,13 @@
 		1C62387A147A492400F9DF63 = {
 			isa = PBXGroup;
 			children = (
+				1CFCF1981483D7CC00AA4949 /* Constant */,
+				1CFCF1941483BD3500AA4949 /* Images */,
+				5D9D0465147AFB3900A7F7D9 /* ALLALONGTHEWATCHTOWER.mp3 */,
+				5D9D0460147AF69200A7F7D9 /* AVFoundation.framework */,
+				1C6238BE147A572100F9DF63 /* CoreLocation.framework */,
+				1C6238BC147A571700F9DF63 /* MapKit.framework */,
+				1C6238BB147A56F600F9DF63 /* MapCustom */,
 				1C62388F147A492500F9DF63 /* DemoMapAnimation */,
 				1C623888147A492500F9DF63 /* Frameworks */,
 				1C623886147A492500F9DF63 /* Products */,
@@ -74,6 +121,7 @@
 			children = (
 				1C623898147A492500F9DF63 /* AppDelegate.h */,
 				1C623899147A492500F9DF63 /* AppDelegate.m */,
+				1C6238A5147A49C500F9DF63 /* AnimatedMapViewController */,
 				1C623890147A492500F9DF63 /* Supporting Files */,
 			);
 			path = DemoMapAnimation;
@@ -88,6 +136,51 @@
 				1C623897147A492500F9DF63 /* DemoMapAnimation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6238A5147A49C500F9DF63 /* AnimatedMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C6238A0147A49B300F9DF63 /* AnimatedMapViewController.h */,
+				1C6238A1147A49B300F9DF63 /* AnimatedMapViewController.m */,
+				1C6238A2147A49B300F9DF63 /* AnimatedMapViewController.xib */,
+			);
+			name = AnimatedMapViewController;
+			sourceTree = "<group>";
+		};
+		1C6238BB147A56F600F9DF63 /* MapCustom */ = {
+			isa = PBXGroup;
+			children = (
+				1C6238B2147A56ED00F9DF63 /* iCodeBlogAnnotationView.h */,
+				1C6238B3147A56ED00F9DF63 /* iCodeBlogAnnotationView.m */,
+				1C6238B4147A56ED00F9DF63 /* MyAnnotation.h */,
+				1C6238B5147A56ED00F9DF63 /* MyAnnotation.m */,
+				1C6238B6147A56ED00F9DF63 /* CustomMapView.h */,
+				1C6238B7147A56ED00F9DF63 /* CustomMapView.m */,
+			);
+			name = MapCustom;
+			sourceTree = "<group>";
+		};
+		1CFCF1941483BD3500AA4949 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1CFCF1861483B75B00AA4949 /* 1.png */,
+				1CFCF1871483B75B00AA4949 /* 2.png */,
+				1CFCF1881483B75B00AA4949 /* 3.png */,
+				1CFCF1891483B75B00AA4949 /* 4.png */,
+				1CFCF18A1483B75B00AA4949 /* 5.png */,
+				1CFCF18B1483B75B00AA4949 /* 6.png */,
+				1CFCF18C1483B75B00AA4949 /* 7.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1CFCF1981483D7CC00AA4949 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				1CFCF1951483D7B900AA4949 /* Constant.h */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +235,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C623894147A492500F9DF63 /* InfoPlist.strings in Resources */,
+				1C6238A4147A49B300F9DF63 /* AnimatedMapViewController.xib in Resources */,
+				5D9D0466147AFB3900A7F7D9 /* ALLALONGTHEWATCHTOWER.mp3 in Resources */,
+				1CFCF18D1483B75B00AA4949 /* 1.png in Resources */,
+				1CFCF18E1483B75B00AA4949 /* 2.png in Resources */,
+				1CFCF18F1483B75B00AA4949 /* 3.png in Resources */,
+				1CFCF1901483B75B00AA4949 /* 4.png in Resources */,
+				1CFCF1911483B75B00AA4949 /* 5.png in Resources */,
+				1CFCF1921483B75B00AA4949 /* 6.png in Resources */,
+				1CFCF1931483B75B00AA4949 /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +256,10 @@
 			files = (
 				1C623896147A492500F9DF63 /* main.m in Sources */,
 				1C62389A147A492500F9DF63 /* AppDelegate.m in Sources */,
+				1C6238A3147A49B300F9DF63 /* AnimatedMapViewController.m in Sources */,
+				1C6238B8147A56ED00F9DF63 /* iCodeBlogAnnotationView.m in Sources */,
+				1C6238B9147A56ED00F9DF63 /* MyAnnotation.m in Sources */,
+				1C6238BA147A56ED00F9DF63 /* CustomMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +282,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Kong (MQE4P7NSU3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Kong (MQE4P7NSU3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -190,7 +297,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -200,15 +309,18 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Kong (MQE4P7NSU3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Kong (MQE4P7NSU3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -217,10 +329,14 @@
 		1C62389E147A492500F9DF63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Kong (MQE4P7NSU3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Kong (MQE4P7NSU3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoMapAnimation/DemoMapAnimation-Prefix.pch";
 				INFOPLIST_FILE = "DemoMapAnimation/DemoMapAnimation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -228,10 +344,14 @@
 		1C62389F147A492500F9DF63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Kong (MQE4P7NSU3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Kong (MQE4P7NSU3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoMapAnimation/DemoMapAnimation-Prefix.pch";
 				INFOPLIST_FILE = "DemoMapAnimation/DemoMapAnimation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B6361DFF-BA36-494C-AC3E-3D69E9D1E0CB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -255,6 +375,7 @@
 				1C62389F147A492500F9DF63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
